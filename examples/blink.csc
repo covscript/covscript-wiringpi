@@ -1,6 +1,6 @@
 import wiringpi as pi
 pi.setup()
-pi.pin_mode(15, output)
+pi.pin_mode(15, pi.output)
 loop
     runtime.delay(1000)
 	pi.digital_write(15, pi.high)
