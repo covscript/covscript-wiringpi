@@ -13,7 +13,7 @@ CNI_ROOT_NAMESPACE
     CNI_VALUE_CONST(pud_up,     PUD_UP)
     CNI_VALUE_CONST(high,       HIGH)
     CNI_VALUE_CONST(low,        LOW)
-
+    // GPIO Functions
     CNI_V(setup,             wiringPiSetup)
     CNI_V(pin_mode,          pinMode)
     CNI_V(pud_cntl,          pullUpDnControl)
@@ -22,6 +22,10 @@ CNI_ROOT_NAMESPACE
     CNI_V(digital_read,      digitalRead)
     CNI_V(analog_read,       analogRead)
     CNI_V(analog_write,      analogWrite)
+    // Timing Functions
+    CNI(millis)
+    CNI(delay)
+    // Serial Port Functions
     CNI_V(serial_open,       serialOpen)
     CNI_V(serial_close,      serialClose)
     CNI_V(serial_putchar,    serialPutchar)
