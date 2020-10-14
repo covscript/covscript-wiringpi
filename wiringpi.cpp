@@ -23,8 +23,8 @@ CNI_ROOT_NAMESPACE
     CNI_V(analog_read,       analogRead)
     CNI_V(analog_write,      analogWrite)
     // Timing Functions
-    CNI(millis)
-    CNI(delay)
+    CNI_V(time,              micros)
+    CNI_V(delay,             delayMicroseconds)
     // Serial Port Functions
     CNI_V(serial_open,       serialOpen)
     CNI_V(serial_close,      serialClose)
