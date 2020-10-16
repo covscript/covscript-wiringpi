@@ -28,5 +28,5 @@ end
 loop
 	runtime.delay(100)
 	system.console.clrscr()
-	system.out.println("Distance: " + distance() + "cm")
+	system.out.println("Distance: " + to_integer(distance()) + "cm")
 end
